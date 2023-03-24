@@ -38,3 +38,5 @@ The second set of analyses focuses on detecting the future temporal trend of the
 to identify which class will increase its geographic extension through time. This test is performed via Ordinary Least
 Square regression (OLS). Then, a set of Generalized Linear Models (GLMs) is performed to test which of the landscape metrics 
 is a statistically better descriptor of the HSI classes by taking into account the temporal variation of all these variables.
+
+https://zenodo.org/badge/latestdoi/618339598
