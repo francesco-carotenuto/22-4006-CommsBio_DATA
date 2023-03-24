@@ -39,4 +39,5 @@ to identify which class will increase its geographic extension through time. Thi
 Square regression (OLS). Then, a set of Generalized Linear Models (GLMs) is performed to test which of the landscape metrics 
 is a statistically better descriptor of the HSI classes by taking into account the temporal variation of all these variables.
 
+### link to Zenodo:
 https://zenodo.org/badge/latestdoi/618339598
