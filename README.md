@@ -1,8 +1,5 @@
 # DATA
-Data and scripts for submitted papers
-
-derived from the Habitat Suitability Index maps computed for the past, the present and the future temporal intervals. In order to properly
-load the data, at the beginning of each script the user have to set the path to the folder "DATA". This path must include the folder DATA. For example,
+Data and scripts for submitted papers derived from the Habitat Suitability Index maps computed for the past, the present and the future temporal intervals. In order to properly load the data, at the beginning of each script the user have to set the path to the folder "DATA". This path must include the folder DATA. For example,
 if you unzipped the folder "Script_and_data" in the main folder "C:/", the path must be ""C:/Script_and_data/DATA/". Notice that the path must end with "/"
 
 
@@ -10,7 +7,7 @@ if you unzipped the folder "Script_and_data" in the main folder "C:/", the path 
 
 # The script ARIMA_regression.R #
 This script executes some statistics describing the frequency of the suitable climatic conditions to the
-species in the past temporal intervals and compare them to the conditions the Ethiopian wolf is experiencing
+species in the past temporal intervals and compares them to the conditions the Ethiopian wolf is experiencing
 now. The main part of this script runs the ARIMA regressions described in the material and methods section
 of the manuscript to test the relationship between the species' geographic range, the temperature and altitude 
 at which the species lived through time. Since this regression include a "time" component, it has to take
@@ -22,7 +19,7 @@ thus masking true relationships.
 
 # The script PerMANOVA_OLS_GLM.R #
 This script executes the analyses to test the differences between the considered future
-climatic projections provided by the CMIP6 Project and related shared socio-economic pathways (SSPs) in terms 
+climatic projections provided by the CMIP6 Project and related shared socio-economic pathways (SSPs) in terms of
 measured landscape metrics for the habitat of Canis simensis, and the analyses to test the relationships between
 Canis simensis Habitat Suitability Index classes (HSI classes) and the landscape metrics and their temporal evolution.
 The future scenarios rely on hypotheses about different strategies mitigating or not mitigating at all the current 
